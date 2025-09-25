@@ -1,0 +1,216 @@
+
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0%;
+}
+
+
+header {
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-left: -60px;
+    transform: translateY(-6px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header .img {
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+    width: 120px;
+    height: 120px;
+    margin-right: 300px;
+}
+
+header .img:hover {
+    transition:ease 0.5s; ;
+}
+
+
+
+
+nav a:hover{
+    transition: ease 0.5s;
+    transform: scale(1.2);
+    color: black;
+}
+
+nav  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.fondo img{
+    width: 100%;
+    height: 100vh;
+}
+.ali{
+    width: 300px;
+    margin-left: 510px;
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 10px;
+    text-align: center; 
+    z-index: 1; 
+    transform: translateY(-340px);
+    font-size: 60px;
+}
+.primercont{
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+    transform: translateY(-80px);
+}
+.seguncont{
+    margin-left: 220px;
+}
+.seguncont h1{
+    text-align: center;
+    margin-left: -180px;
+}
+.seguncont img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    transition: ease 0.4;
+    box-shadow:0 3px 14px #333;
+    margin-left: 20px;
+}
+.seguncont img:hover{
+    width: 420px;
+    height: 310px;
+    transition: ease 0.5s;
+}
+.seguncont p{
+    width: 800px;
+    margin-left: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    box-shadow:0 4px 14px #000000;
+    padding: 5px 10px;
+    border-radius: 13px;
+    color: white;
+
+}
+.contenedor1{
+display: flex;
+
+}
+.contenedor2{
+display: flex;
+
+}
+.tercercont{
+    display: flex;
+    margin-left: 200px;
+
+}
+.tercercont img{
+     width: 400px;
+    height: 600px;
+    margin-left: 60px;
+    justify-content: center;
+}
+.chesf{
+    text-align: center;
+    transform: translateY(-50px);
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    box-shadow:0 4px 14px #000000;
+    
+}
+.tercercont p{
+    width: 400px;
+    text-align: center;
+    margin-left: 60px;
+}
+.cuartocont{
+    display: grid;
+    text-align: center;
+}
+.cuartocont h1{
+    text-align: center;
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    box-shadow:0 4px 14px #000000;
+}
+
+.cuartocont img{
+     width: 400px;
+    height: 350px;
+    margin-left: 480px;
+}
+.cuartocont p{
+    width: 60%;
+    margin-left: 260px;
+}
+
+
+footer {
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+}
+
+footer a:hover {
+    color: #333;
+}
+.pie1{
+width: 300px;
+}
+.pie2{
+width: 300px;
+}
+.pie3{
+width: 300px;
+display: grid;
+justify-content: center;
+
+}
+.pie3 a img{
+    width: 30px;
+    height: 30px;
+    padding: 0%;
+    margin: 10px;
+    cursor: pointer;
+}
+.pie3 a{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.titbeb{
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    margin: 0%;
+    text-align: center;
+}

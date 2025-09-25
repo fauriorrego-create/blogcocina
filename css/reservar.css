@@ -1,0 +1,160 @@
+
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0%;
+}
+form{
+    width: 550px;
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    margin-left: 355px;
+    border-radius: 13px;
+}
+
+form h1{
+    color: white;
+}
+#correo{
+    width: 400px;
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+}
+label{
+    color: white;
+}
+#nombre{
+    width: 400px;
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+}
+#fecha{
+    width: 120px;
+    margin-left: 212px;
+}
+.boton{
+    width: 120px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    margin-left: 213px;
+    border-radius: 7px;
+}
+.boton:hover{
+    transition: ease 0.5s;
+    width: 130px;
+    height: 40px;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-left: -60px;
+    transform: translateY(-6px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header .img {
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+    width: 120px;
+    height: 120px;
+    margin-right: 300px;
+}
+
+header .img:hover {
+    transition:ease 0.5s; ;
+}
+
+
+
+
+nav a:hover{
+    transition: ease 0.5s;
+    transform: scale(1.2);
+    color: black;
+}
+
+nav  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+
+footer {
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+}
+
+footer a:hover {
+    color: #333;
+}
+.pie1{
+width: 300px;
+}
+.pie2{
+width: 300px;
+}
+.pie3{
+width: 300px;
+display: grid;
+justify-content: center;
+
+}
+.pie3 a img{
+    width: 30px;
+    height: 30px;
+    padding: 0%;
+    margin: 10px;
+    cursor: pointer;
+}
+.pie3 a{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.titbeb{
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    margin: 0%;
+    text-align: center;
+}
